@@ -31,6 +31,6 @@ edit $PROFILE
 ```bash
 # *profile.ps file:
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
-oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/stelbent.minimal.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 ```
