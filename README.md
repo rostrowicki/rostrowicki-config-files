@@ -34,3 +34,11 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/stelbent.minimal.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 ```
+
+### NeoVIM
+nvim config file on Windows should be placed in ~.\AppData\Local\nvim folder. If unsure then use following command :echo $MYVIMRC
+
+Use :PlugInstall in nvim command mode to install plugins. To update run :PlugUpdate.
+
+Note that there are several key bingings that are mapped in the config file.
+
