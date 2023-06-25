@@ -36,6 +36,8 @@ Import-Module -Name Terminal-Icons
 ```
 
 ### NeoVIM
+After installing Neovim you should also install https://github.com/junegunn/vim-plug first.
+
 nvim config file on Windows should be placed in ~.\AppData\Local\nvim folder. If unsure then use following command :echo $MYVIMRC
 
 Use :PlugInstall in nvim command mode to install plugins. To update run :PlugUpdate.
